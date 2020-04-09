@@ -39,16 +39,17 @@ button{
 }
 
 .form {
-    /* border: 1px solid; */
+    /*border: 1px solid; */
     display: flex;
     align-items: center;
     height: 500px;
 }
 form {
-    /* border: 1px solid; */
+    /*border: 1px solid; */
     text-align: center;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
+    /*align-self: center;*/
 }
 
 .search-box {
@@ -82,7 +83,9 @@ form {
 }
 
 .search-button:hover {
-    border: 1px solid grey;
+    /*border: 1px solid rgba(0,0,0,0.1);*/
+    color: rgba(0,0,0, 0.7);
+    background: rgba(0,0,0, 0.1);
 }
 
 footer {
@@ -117,7 +120,7 @@ footer {
     justify-content: space-around;
 }
 
-a {
+div > a  {
     text-decoration: none;
     color: inherit;
 }
